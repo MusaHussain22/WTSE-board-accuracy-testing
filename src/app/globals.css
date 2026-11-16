@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3efe6;
+  --ink: #1c2430;
+  --muted: #5c6570;
+  --line: #d9d2c5;
+  --card: #fffdf8;
+  --cap: #8a5a12;
+  --miss: #9c2f1a;
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(156, 47, 26, 0.06), transparent 50%),
+    var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+.mono {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+}
